@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	
-	node {
+	stages {
 	  stage ('GIT Test Project Checkout'){
 		git 'https://github.com/ELewis1977/RF-testsim.git'
 	  }
